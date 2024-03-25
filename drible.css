@@ -5,9 +5,6 @@
 	display: grid;
 	grid-template-columns: 60% 40%;
 }
-
-
-
 .drible {
 	display: flex;
 	justify-content:space-around;
@@ -33,17 +30,12 @@
 	font-size: 30px;
 	border: none;
 }
-
-
 .toggle  input{
 	width: 25px;
 	height: 25px;
 	transform: translate(-40px, 2px);
 	visibility: ;
 	cursor: pointer;
-
-	
-
 }
 
 .drible2{
@@ -396,9 +388,6 @@ h1{
 .toggle{
 	display: none;
 }
-
-	
-
 @media screen and (max-width: 600px){
 
 /*.toggle{
