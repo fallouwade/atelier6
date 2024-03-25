@@ -213,6 +213,7 @@ animation-name: scroll;
 	width: 100%;
 	height:56vh;
 	border-radius: 33px;
+	object-fit: cover;
 	transform: perspective(23px);
 }
 .slide2 video{
@@ -342,7 +343,7 @@ h1{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 25px;
-	margin: 5px 40px;
+	margin: 5px 9px;
 
 }
 .div2 i{
@@ -388,7 +389,7 @@ h1{
 .toggle{
 	display: none;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 
 /*.toggle{
 	display: block;
@@ -445,10 +446,10 @@ h1{
 }
 
 .slide1 video{
-	height: 52vh;
+	height: 51vh;
 }
 
-.slide1 img{
+.slide img{
 	height: 51vh;
 }
 
@@ -488,6 +489,10 @@ h1{
 	display: flex;
 	flex-direction: column;
 	margin: 8px 15px;
+}
+.pied1{
+	gap: 12px;
+	font-size: 14px;
 }
 
 }
